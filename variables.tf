@@ -1,10 +1,10 @@
 variable "project_id" {
   type        = string
-  description = "pubsub-306610"
-  // "The Google Cloud Project Id"
+  description = "The Google Cloud Project Id"
+  default =  "pubsub-306610"
 }
 
 variable "region" {
   type    = string
-  default = "europe-west2"
+  default = "europe-west2-a"
 }

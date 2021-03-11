@@ -1,2 +1,2 @@
-project_id = "terraform-learning-293205"
-region     = "europe-west2"
+project_id = "pubsub-306610"
+region     = "europe-west2-a"
