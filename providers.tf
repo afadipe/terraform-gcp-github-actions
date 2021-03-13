@@ -6,7 +6,6 @@ provider "google" {
 terraform {
   backend "gcs" {
     bucket = "terra-gcp-gitaction"
-    //bucket = "myvik-tf-state-prod"
     prefix = "terraform/state"
   }
 }
