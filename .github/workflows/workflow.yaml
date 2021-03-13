@@ -45,9 +45,6 @@ jobs:
     - name: Terraform Plan
       id: terrafomr_plan
       run: terraform plan
-      with:
-        tf_actions_comment: "false"
-        tf_actions_working_dir: environments/${{ env.BRANCH_NAME }}
       env:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
